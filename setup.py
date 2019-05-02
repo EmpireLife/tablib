@@ -36,7 +36,6 @@ install = [
     'backports.csv;python_version<"3.0"',
     'xlrd',
     'xlwt',
-    'pyyaml',
 ]
 
 
