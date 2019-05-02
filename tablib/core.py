@@ -569,21 +569,6 @@ class Dataset(object):
         pass
 
     @property
-    def yaml():
-        """A YAML representation of the :class:`Dataset` object. If headers have been
-        set, a YAML list of objects will be returned. If no headers have
-        been set, a YAML list of lists (rows) will be returned instead.
-
-        A dataset object can also be imported by setting the :class:`Dataset.yaml` attribute: ::
-
-            data = tablib.Dataset()
-            data.yaml = '- {age: 90, first_name: John, last_name: Adams}'
-
-        Import assumes (for now) that headers exist.
-        """
-        pass
-
-    @property
     def df():
         """A DataFrame representation of the :class:`Dataset` object.
 
