@@ -20,7 +20,6 @@ Output formats supported:
 
 - Excel (Sets + Books)
 - JSON (Sets + Books)
-- YAML (Sets + Books)
 - Pandas DataFrames (Sets)
 - HTML (Sets)
 - Jira (Sets)
@@ -40,14 +39,14 @@ Overview
     A Dataset is a table of tabular data.
     It may or may not have a header row.
     They can be build and manipulated as raw Python datatypes (Lists of tuples|dictionaries).
-    Datasets can be imported from JSON, YAML, DBF, and CSV;
-    they can be exported to XLSX, XLS, ODS, JSON, YAML, DBF, CSV, TSV, and HTML.
+    Datasets can be imported from JSON, DBF, and CSV;
+    they can be exported to XLSX, XLS, ODS, JSON, DBF, CSV, TSV, and HTML.
 
 `tablib.Databook()`
     A Databook is a set of Datasets.
     The most common form of a Databook is an Excel file with multiple spreadsheets.
-    Databooks can be imported from JSON and YAML;
-    they can be exported to XLSX, XLS, ODS, JSON, and YAML.
+    Databooks can be imported from JSON;
+    they can be exported to XLSX, XLS, ODS, JSON.
 
 Usage
 -----
